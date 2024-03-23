@@ -1,0 +1,227 @@
+/* Table Container */
+.table-container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Sort By Dropdown Styles */
+  .sort-by-dropdown {
+    display: flex;
+    align-items: center;
+    background-color: #dce8f1;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sort-by-dropdown label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .sort-by-dropdown select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    padding-right: 30px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Search Box Styles */
+  .search-box {
+    display: flex;
+    align-items: center;
+    background-color: #fcfcfc;
+    padding: 0px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-box input[type="text"] {
+    border: none;
+    outline: none;
+    background: rgb(217, 225, 228);
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+  
+  .search-box input[type="text"]::placeholder {
+    color: #312c2c;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #9ea6f0;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .table tr:nth-child(odd) {
+    background-color:  #f2f5f8; 
+  }
+  
+  
+  .table tbody tr:hover {
+    background-color: #c9aeec;
+    cursor: pointer;
+  }
+  .table tbody tr {
+    height: 50px; 
+  }
+  .table tr:hover {
+    background-color: #c9aeec; 
+  }
+  
+ 
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  .search-box input[type="text"] {
+    padding: 10px;
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 1rem;
+  }
+  .search-box label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+ 
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  
+  
+  .table-scroll {
+    height: 400px; 
+    overflow-y: auto; 
+  }
+  
+
+  .table-wrapper {
+    display: flex;
+    flex-direction: row;
+    height:72vh;
+    overflow-x: auto; 
+    }
+  
+
+  .table tbody tr {
+    background-color: #ffffff; 
+  }
+
+.college-name-cell {
+    position: relative;
+  }
+  
+  .featured-flag-container {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: rgb(45, 214, 73);
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    
+  }
+  .college-name-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 190px;
+    
+  }
+
+.sort-by-dropdown {
+    display: inline-block;
+    margin-left: 20px; 
+  }
+  
+  .sort-by-dropdown label {
+    margin-right: 10px;
+  }
+  
+  .sort-by-dropdown select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .search-box {
+    display: inline-block;
+  }
+  
+  .ranking-column {
+    width: 100px;
+  }
+  
+  .college-name-column {
+    width: 250px;
+  }
+  
+  .college-rating-column {
+    width: 150px;
+  }
+  
+  .fees-column {
+    width: 150px;
+  }
+  
+  .user-review-rating-column {
+    width: 150px;
+  }
+  .featured-flag-container:hover + .tooltip-text {
+    display: block;
+  }
+  
+ 
+  

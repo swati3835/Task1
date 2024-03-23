@@ -1,0 +1,156 @@
+
+[
+    {
+      "id": 1,
+      "collegeName": "Chandigarh University",
+      "rating": 4.5,
+      "fees": 100000,
+      "userReviewRating": 4.2,
+      "ranking": 2,
+      "featured":  true
+    },
+    {
+        "id": 2,
+        "collegeName": "Amity University",
+      "rating": 4.2,
+      "fees": 1100000,
+      "userReviewRating": 3.9,
+      "ranking": 3,
+      "featured":  true
+    },
+    {  
+        "id": 3,
+        "collegeName": "Girls College",
+      "rating": 3.5,
+      "fees": 13000,
+      "userReviewRating": 3.1,
+      "ranking": 4,
+      "featured":  false
+    },
+    {
+        "id":4,
+        "collegeName": "DAV University",
+      "rating": 3.7,
+      "fees": 10500,
+      "userReviewRating": 3.8,
+      "ranking": 5,
+      "featured":  false
+    },
+    {
+        "id":5,
+        "collegeName": "IILM University",
+      "rating": 4.1,
+      "fees": 35000,
+      "userReviewRating": 4.2,
+      "ranking": 6,
+      "featured":  true
+    },
+    {
+        "id":6,
+        "collegeName": "Cambridge College",
+      "rating": 4.3,
+      "fees": 22000,
+      "userReviewRating": 4.2,
+      "ranking": 9,
+      "featured":  true
+    },
+    {
+        "id":7,
+        "collegeName": "NSUT",
+      "rating": 5.0,
+      "fees": 21000,
+      "userReviewRating": 4.2,
+      "ranking": 8,
+      "featured":  true
+    },
+    {
+        "id":8,
+        "collegeName": "DTU College",
+      "rating": 4.6,
+      "fees": 17000,
+      "userReviewRating": 4.3,
+      "ranking": 7,
+      "featured":  true
+    },
+    {
+        "id":9,
+        "collegeName": "Manipal University",
+      "rating": 4.5,
+      "fees": 15000,
+      "userReviewRating": 4.3,
+      "ranking": 10,
+      "featured":  false
+    },
+    {
+        "id":10,
+        "collegeName": "Sikkim University",
+      "rating": 4.7,
+      "fees": 12000,
+      "userReviewRating": 4.1,
+      "ranking": 13,
+      "featured":  false
+    },
+    {
+        "id":11,
+        "collegeName": "Punjab University",
+        "rating": 4.3,
+        "fees": 130000,
+        "userReviewRating": 4.2,
+        "ranking": 11,
+        "featured":  true
+      },
+      {
+        "id":12,
+        "collegeName": "Lovely Professional University",
+        "rating": 4.3,
+        "fees": 104000,
+        "userReviewRating": 4.0,
+        "ranking": 12,
+        "featured": false
+      },
+      {
+        "id":13,
+        "collegeName": "Ambala University",
+        "rating": 4.9,
+        "fees": 106000,
+        "userReviewRating": 4.6,
+        "ranking": 15,
+        "featured":  false
+      },
+      {
+        "id":14,
+        "collegeName": "Kalka University",
+        "rating": 4.5,
+        "fees": 150000,
+        "userReviewRating": 4.2,
+        "ranking": 16,
+        "featured":  true
+      },
+      {
+        "id":15,
+        "collegeName": "Mewar University",
+        "rating": 4.5,
+        "fees": 130000,
+        "userReviewRating": 4.2,
+        "ranking": 17,
+        "featured":  false
+      },
+      {
+        "id":16,
+        "collegeName": "Mexico University",
+        "rating": 4.3,
+        "fees": 140000,
+        "userReviewRating": 3.2,
+        "ranking": 1,
+        "featured":  true
+      },
+      {
+        "id":17,
+        "collegeName": "Delhi University",
+        "rating": 4.5,
+        "fees": 160000,
+        "userReviewRating": 4.7,
+        "ranking": 14,
+        "featured":  true
+      } 
+]
